@@ -1,0 +1,86 @@
+/* INICIO - HEADER - IMAGEM CAPA*/
+
+/* PALETA DE CORES -->
+
+    #3F4D39 -- VERDE ESCURO
+    #92A48B -- VERDE CLARO
+    #F1EDEC -- ROSA CLARO
+    #DBB7AB -- ROSA ESCURO
+
+*/
+
+img#imgcapa {
+    height: 500px;
+    object-fit: cover;
+    width: 102%;
+    display: block;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+
+}
+
+header {
+    min-height: 550px;
+    text-align: center;
+
+}
+
+body {
+    text-align: center;
+    background-color: #EFEAE4;
+    
+}
+/* FIM - HEADER - IMAGEM CAPA*/
+
+/* INICIO - HEADER - BOTÃO*/
+nav {
+    margin: 3px;
+
+}
+
+.button {
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn01 {
+    background-color: #92A48B; 
+    color: black; 
+    border: 2px solid #92A48B;
+}
+
+.btn01:hover {
+    background-color: #3F4D39;
+    color: #F1EDEC;
+}
+
+.btn02 {
+    background-color: #92A48B;
+    color: black;
+    border: 2px solid #92A48B;
+}
+
+.btn02:hover {
+    background-color: #3F4D39;
+    color: #F1EDEC;
+}
+
+.btn03 {
+    background-color: #92A48B;
+    color: black;
+    border: 2px solid #92A48B;
+}
+
+.btn03:hover {
+    background-color: #3F4D39;
+    color: #F1EDEC;
+}
+/* FIM - HEADER - BOTÃO*/
