@@ -8,6 +8,7 @@
     #DBB7AB -- ROSA ESCURO
 
 */
+@import url(https://fonts.google.com/specimen/Amatic+SC);
 
 img#imgcapa {
     height: 500px;
@@ -28,7 +29,7 @@ header {
 
 body {
     text-align: center;
-    background-color: #efb5ae;
+    background-color: #DBB7AB;
     
 }
 /* FIM - HEADER - IMAGEM CAPA*/
@@ -40,48 +41,52 @@ nav {
 }
 
 .button {
-    padding: 15px 30px;
+    padding: 13px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 10px;
+    font-family: "Amatic+SC";
 }
 
 .btn01 {
-    background-color: #efb5ae; 
+    background-color: #DBB7AB; 
     color: black; 
-    border: 2px solid #ffe3cd;
+    border: 2px solid #DBB7AB;
 }
 
 .btn01:hover {
-    background-color: #3F4D39;
+    background-color: #92A48B;
     color: #F1EDEC;
+    border: 2px solid #92A48B;
 }
 
 .btn02 {
-    background-color: #efb5ae;
+    background-color: #DBB7AB;
     color: black;
-    border: 2px solid #ffe3cd;
+    border: 2px solid #DBB7AB;
 }
 
 .btn02:hover {
-    background-color: #3F4D39;
+    background-color: #92A48B;
     color: #F1EDEC;
+    border: 2px solid #92A48B;
 }
 
 .btn03 {
-    background-color: #efb5ae;
+    background-color: #DBB7AB;
     color: black;
-    border: 2px solid #ffe3cd;
+    border: 2px solid #DBB7AB;
 }
 
 .btn03:hover {
-    background-color: #3F4D39;
-    color: #F1EDEC;
+    background-color: #92A48B;
+    color: #ffe3cd;
+    border: 2px solid #92A48B;
 }
 /* FIM - HEADER - BOTÃO*/
 
@@ -104,7 +109,7 @@ div.container {
     padding: 10px 20px;
 }
 
-img#img01 {
+img#imgPortifolio {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
     object-fit: cover;
